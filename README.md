@@ -51,7 +51,8 @@ Revision Page:
 Revision History
 Collaborator Email
 
-TUTORIALS****************************************
+TUTORIALS:
+****************************************
 
 To generate a file locally:
 =========================
@@ -84,6 +85,8 @@ Open your XML from docbook
 Run your transformation scenario
 
 MANUAL ADDITIONS TO DOCBOOK XML
+=======================================
+
 
 Adding Electronic signature
 =======================================
@@ -128,13 +131,13 @@ Open your .xml docbook output and add the following (as needed) into the <info> 
 
 Controlling TOC Display
 =======================================
-Follow instructions for setting up local file generation
+Follow instructionsfor setting up local file generation
 Open your .xml docbook output and add the following (as needed) into the <info> tag
 Omit the TOC types that are not desired (keeping title always).
 <subjectset>     <subject>       <subjectterm>book toc,title,figure,table,example,equation</subjectterm>     </subject>   </subjectset>
 
 RELEASE NOTES:
-
+=======================================
 V2.0
 -Docgen will now produce a usable slightly pretty document without stylesheet implementation
 -Changed Bookinfo back to info
