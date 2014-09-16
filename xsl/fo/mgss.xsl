@@ -177,11 +177,6 @@
         </xsl:choose>
     </xsl:template>
     
-    <xsl:template match="d:emphasis">
-        <fo:inline font-size="18pt">
-            <xsl:apply-templates/>  
-        </fo:inline>
-    </xsl:template>  
     
     <!-- header is smaller -->
     <xsl:template name="header.content">
