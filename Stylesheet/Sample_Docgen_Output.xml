@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0">
+<!--Sample info output for docgen 3-->
+<info>
+    <!-- JPL Document ID-->
+    <productnumber>JPL D-DOCUMENT#</productnumber> 
+    <subjectset>
+        <subject>
+            <subjectterm>book title,toc,table</subjectterm>
+        </subject>
+    </subjectset>
+    <!-- Current Document Version-->
+    <releaseinfo>Version</releaseinfo> 
+    
+<!-- This block if it exists will post the referenced image to the first page of the 
+    document independant of other document elements-->
+    <cover>
+        
+        <mediaobject>
+              <imageobject>
+                  <imagedata align="center" fileref="images/SSS.jpg"/>
+              </imageobject>             
+        </mediaobject>
+    </cover>
+    
+    <!--This is the project logo which should be saved in the same directory as the output-->
+    <mediaobject>
+        <imageobject>
+            <imagedata depth="1in" align="center" fileref="images/projectlogo.png"/>
+        </imageobject>  
+    </mediaobject>
+    
+    <publisher>
+        <publishername>MBEE Docgen</publishername> <!-- Abbreviated project name -->
+        <address>http://docusharelink.yourproject.doc</address> <!-- this is the link to the docgen site or docushare-->      
+    </publisher>
+    
+    <!-- This is the generated date -->
+    <pubdate>Thu Apr 11 17:37:07 PDT 2013</pubdate> 
+    
+    <!--Full project name-->
+    <title>MBEE Docgen Project</title>
+    
+    <!--Subtitle is the name of the document ie System Requirements Document-->
+    <subtitle>Document Generator Output Template</subtitle>
+    
+    <!--Abbreviated Title for Header-->
+    <titleabbrev>DocGen Template</titleabbrev>
+    
+    <!--Legal Notice for footer "Do not distribute etc..." can be customized here-->
+    <legalnotice>
+        <!--This is the main titlepage notice-->
+        <title>
+        This document has NOT been reviewed for export control. Not for distribution to or access by foreign persons.   
+        </title>
+        <!--This is the footer legal notice-->
+        <para>
+        Paper copies of this document may not be current and should not be relied on for official purposes. 
+        JPL/Caltech proprietary.  Not for public release.
+        </para>
+    </legalnotice>
+    
+    <!--Collaborating Institution-->
+    <collab>
+        <org>
+            <orgname>Jet Propulsion Laboratory</orgname>
+            <orgdiv>California Institute of Technology</orgdiv>
+            <uri>http://sec274.jpl.nasa.gov/img/logos/jpl_logo(220x67).gif</uri>
+            <address><alt>36px</alt></address>
+        </org>
+    </collab>
+    
+    <!--Author is "Preparing Engineer(s)" -->
+    <author>
+        <personname>
+            <firstname>Frodo</firstname>
+            <surname>Baggins</surname>
+            <othername>8-28-14</othername>
+        </personname>
+        <affiliation>
+            <jobtitle>Ring Bearer</jobtitle>
+            <org>
+                <orgname>JPL</orgname>
+                <orgdiv>312</orgdiv>
+            </org>
+        </affiliation>
+    </author> 
+    
+    <!--Editor denotes "Approving Engineer(s)"-->
+    <editor>
+        <personname>
+            <firstname>Mithrandir</firstname>
+            <surname></surname>
+            <othername>8-28-14</othername>
+        </personname>
+        <affiliation>
+            <jobtitle>Grey Wizard</jobtitle>
+            <org>
+                <orgname>JPL</orgname>
+                <orgdiv>312</orgdiv>
+            </org>
+        </affiliation>
+    </editor>
+    <!-- ALEK START HERE-->
+    <!--AuthorGroup Editor denotes "Accepted By" -->
+    <authorgroup>
+        <editor>
+            <personname>
+                <firstname>Elrond</firstname>
+                <surname></surname>
+                <othername>8-28-14</othername>
+            </personname>
+            <affiliation>
+                <jobtitle>Elf King</jobtitle>
+                <org>
+                    <orgname>NASA HQ</orgname>
+                    <orgdiv>PSD</orgdiv>
+                </org>
+            </affiliation>
+        </editor>
+    </authorgroup>
+    <!-- ALEK END HERE -->
+    
+    <!--Other Credit Denotes "Concuring Engineer(s)"-->
+    <othercredit>
+        <personname>
+            <firstname>Aragorn</firstname>
+            <surname></surname>
+            <othername>8-28-14</othername>
+        </personname>
+        <affiliation>
+            <jobtitle>Heir to the Throne of Gondor</jobtitle>
+            <org>
+                <orgname>JPL</orgname>
+                <orgdiv>Div. 31</orgdiv>
+            </org>
+        </affiliation>
+    </othercredit>
+    
+    <othercredit>
+        <personname>
+            <firstname>Tom</firstname>
+            <surname>Bombadil</surname>
+            <othername>8-28-14</othername>
+        </personname>
+        <affiliation>
+            <jobtitle>Forest Troll</jobtitle>
+            <org>
+                <orgname>SpaceX</orgname>
+            </org>
+        </affiliation>
+    </othercredit>
+    
+    <!--Each Revision Should have its own "Block" within revhistory-->    
+    <revhistory>      
+        <revision>
+            <revnumber>Draft</revnumber>
+            <date>4/12/13</date>
+            <author>
+                <personname>
+                    <firstname>John Q</firstname>
+                    <surname>Public</surname>
+                </personname>
+            </author>
+            <revremark>Document Created</revremark>          
+        </revision>
+        
+        <revision>
+            <revnumber>Preliminary</revnumber>
+            <date>4/16/13</date>
+            <author>
+                <personname>
+                    <firstname>John Q</firstname>
+                    <surname>Public</surname>
+                </personname>
+            </author>
+            <revremark>Section 1 added to reflect reviewer remarks</revremark>          
+        </revision>
+    </revhistory>
+    
+    <!-- E-mails of distribution list-->   
+    
+    
+</info>
+    
+<chapter xml:id="_17_0_2_3_8660276_1365725590542_499305_39668">
+    <info><title>Section 1</title></info>
+    <para>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor diam enim. Nulla mattis iaculis ligula in interdum. Duis sit amet purus neque, eu malesuada tellus. Vestibulum ultrices, magna a mollis iaculis, dui erat euismod lorem, vel tincidunt nisl augue sit amet dui. Pellentesque venenatis, metus a feugiat ullamcorper, purus erat viverra massa, et tempor massa arcu sit amet turpis. Nam non venenatis nisi. Pellentesque feugiat ultrices dolor. Mauris a neque sit amet dolor tempus ultricies eget eget odio. Quisque sagittis diam ac nibh pellentesque rutrum. Fusce euismod porttitor malesuada. Cras eu enim ante. Morbi sollicitudin lorem a diam suscipit dictum. Morbi vulputate augue vitae ante consequat eu blandit metus bibendum. Aenean consectetur, libero a consectetur tristique, augue justo consectetur felis, nec tristique libero dolor in tellus.
+        
+        Fusce eu elit eget elit tempus tristique. Sed et sem lacus. Sed fringilla ultricies libero, id commodo justo porta at. Integer dolor dolor, condimentum bibendum fermentum et, convallis nec augue. Cras molestie ipsum sit amet lacus gravida in accumsan nibh hendrerit. Aenean auctor commodo erat in fringilla. Pellentesque tempus ligula id dui volutpat tempor. Phasellus metus eros, lobortis ac porttitor non, suscipit et mauris. Proin massa elit, tempus lacinia imperdiet at, mattis sit amet dolor. Suspendisse potenti. Aliquam eros justo, adipiscing sed aliquet at, pulvinar et sem. Sed sit amet tellus ante, nec consectetur lectus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        
+        In lacinia fermentum nibh placerat sodales. Suspendisse condimentum metus eu enim fringilla mollis. Pellentesque leo nisl, sagittis a ultricies ut, commodo sit amet urna. Quisque sed euismod mauris. Nulla sapien nulla, blandit vel lobortis ac, rhoncus nec purus. Proin gravida pretium sagittis. Donec elementum tincidunt elit id molestie. Nam leo diam, hendrerit nec malesuada accumsan, gravida at odio. Ut porta luctus venenatis. Nullam id quam nulla. Nullam vitae gravida orci. Suspendisse porta est ac odio tempus tempor. Cras vel ullamcorper lorem.
+        
+        Quisque felis diam, iaculis et varius at, ultrices tincidunt nunc. Suspendisse et mi sem, vitae facilisis ipsum. Aenean eget tellus quis risus tempor pulvinar quis tincidunt dolor. Cras condimentum interdum ornare. Aliquam viverra massa et libero lobortis pellentesque. Proin quis lacus velit. Praesent pulvinar interdum ipsum, ut laoreet est iaculis quis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc id lectus ut odio consectetur sagittis. Sed facilisis diam sed urna scelerisque porta. Fusce aliquet laoreet viverra. Donec tristique erat ut nisl sagittis aliquam.
+        
+        Donec tempor elit in orci elementum id consequat mauris semper. Ut aliquet ullamcorper sem vitae malesuada. Pellentesque fermentum pulvinar quam, non iaculis urna lobortis gravida. In eu nibh id risus imperdiet aliquet sed ac massa. Suspendisse consectetur sem quis sem ullamcorper sit amet egestas magna porttitor. Donec eros erat, laoreet non malesuada a, mollis a nisl. Fusce id nisi lectus. Morbi nec massa quam. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dolor elit, euismod vitae semper a, consectetur a nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </para>
+<table>
+    <info><title>a table</title></info>
+    <tgroup cols='2'>
+        <tbody>
+            <row>
+                <entry>Value</entry>
+                <entry>1</entry>
+            </row>
+        </tbody>
+    </tgroup>
+</table>
+
+</chapter>
+</book>
